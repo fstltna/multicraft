@@ -1,0 +1,2 @@
+/usr/bin/ar qc libluachacha.a CMakeFiles/luachacha.dir/chacha.c.o CMakeFiles/luachacha.dir/lchacha.c.o
+/usr/bin/ranlib libluachacha.a

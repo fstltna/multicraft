@@ -1,0 +1,40 @@
+Performing C SOURCE FILE Test IS_AARCH64 failed with the following output:
+Change Dir: /home/marisag/Documents/MultiCraft/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d7037/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d7037.dir/build.make CMakeFiles/cmTC_d7037.dir/build
+gmake[1]: Entering directory '/home/marisag/Documents/MultiCraft/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7037.dir/src.c.o
+/usr/bin/cc -DIS_AARCH64   -o CMakeFiles/cmTC_d7037.dir/src.c.o -c /home/marisag/Documents/MultiCraft/CMakeFiles/CMakeTmp/src.c
+/home/marisag/Documents/MultiCraft/CMakeFiles/CMakeTmp/src.c:2:2: error: #error 
+    2 | #error
+      |  ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_d7037.dir/build.make:78: CMakeFiles/cmTC_d7037.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/marisag/Documents/MultiCraft/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d7037/fast] Error 2
+
+
+Source file was:
+#ifndef __aarch64__
+#error
+#endif
+int main(){}
+Performing C SOURCE FILE Test IS_AARCH64 failed with the following output:
+Change Dir: /home/marisag/Documents/multicraft/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_65f8d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_65f8d.dir/build.make CMakeFiles/cmTC_65f8d.dir/build
+gmake[1]: Entering directory '/home/marisag/Documents/multicraft/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65f8d.dir/src.c.o
+/usr/bin/cc -DIS_AARCH64   -o CMakeFiles/cmTC_65f8d.dir/src.c.o -c /home/marisag/Documents/multicraft/CMakeFiles/CMakeTmp/src.c
+/home/marisag/Documents/multicraft/CMakeFiles/CMakeTmp/src.c:2:2: error: #error 
+    2 | #error
+      |  ^~~~~
+gmake[1]: *** [CMakeFiles/cmTC_65f8d.dir/build.make:78: CMakeFiles/cmTC_65f8d.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/marisag/Documents/multicraft/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_65f8d/fast] Error 2
+
+
+Source file was:
+#ifndef __aarch64__
+#error
+#endif
+int main(){}
