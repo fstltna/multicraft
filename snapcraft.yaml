@@ -14,7 +14,7 @@ apps:
   multicraft:
     command: bin/multicraft
 parts:
-  einstein:
+  multicraft:
     # See 'snapcraft plugins'
     plugin: dump
     source: .
